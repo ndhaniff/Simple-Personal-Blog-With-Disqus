@@ -1,0 +1,52 @@
+.sidebar{
+  text-align:center;
+  padding:1rem;
+  img{
+    border-radius:50%;
+  }
+}
+
+.post{
+  padding:1rem;
+}
+
+.post-list{
+  list-style:none;
+  a{
+    color:black;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
+
+.post-container{
+  position: relative;
+  margin:1.5rem;
+}
+
+.post-excerpt{
+  width:75%;
+  padding:1.2rem;
+  position:absolute;
+  background: #fff;
+  bottom: 0;
+  right: 0;
+  img{
+    border-radius:50%;
+  }
+}
+
+.category a{
+  color:rgb(225, 135, 135);
+}
+
+.filter-list{
+    list-style:none;
+    padding: 0;
+    li{
+      a{
+        color:black;
+      }
+    }
+}
